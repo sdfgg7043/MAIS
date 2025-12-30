@@ -1,0 +1,16 @@
+{
+    "name": "almouj-invoice",
+    "version": "1.0.0",
+    "description": "Desktop invoice system for Al Mouj Company",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build-win": "electron-builder --win",
+      "build-linux": "electron-builder --linux",
+      "build-mac": "electron-builder --mac"
+    },
+    "devDependencies": {
+      "electron": "^latest",
+      "electron-builder": "^latest"
+    }
+  }
